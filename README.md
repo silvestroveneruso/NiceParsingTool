@@ -14,10 +14,12 @@ We distinguish between two types of data sources: *(i)* physical Data Sources, t
 The details of the format can be found in the related paper *NICE: The Native Iot-Centric Event log model for process mining*.
 
 ## How to run the script
-The Python script can be run with this command:
+Run the Python script with these two arguments:
 ```
 python parser.py [nUsers] [sensorsFile]
 ```
-where **[nUsers]** is an integer associated with the number of virtual inhabitants used in the related synthetic log (e.g., 2), and **[sensorsFile]** is a text file with information related to the sensors available within the smart environment and their position. An example of such a file is available within the *Parsing Tool* folder in this repository.
+1. **[nUsers]** is an integer associated with the number of virtual inhabitants used in the related synthetic log (e.g., 2);
+
+2. **[sensorsFile]** is a text file with information related to the sensors available within the smart environment and their position. An example of such a file is available within the *Parsing Tool* folder in this repository.
 
 The parsed log will appear in the same folder as the script, with the name *parsedLog.xml*.
