@@ -14,7 +14,7 @@ We distinguish between two types of data sources: *(i)* physical Data Sources, t
 The details of the format can be found in the related paper *NICE: The Native Iot-Centric Event log model for process mining*.
 
 ## How to run the script
-Run the Python script +parser.py* with these two mandatory arguments:
+Run the Python script *parser.py* with these two mandatory arguments:
 ```
 python parser.py [nUsers] [sensorsFile]
 ```
